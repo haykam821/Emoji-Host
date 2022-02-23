@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "emojihost",
+	"version": "${version}",
+	"name": "Emoji Host",
+	"description": "Manages server-side parsing and registration of emojis.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Emoji-Host#readme",
+		"issues": "https://github.com/haykam821/Emoji-Host/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.emojihost.Main"
+		]
+	},
+	"mixins": [
+		"emojihost.mixin.json"
+	],
+	"license": "MIT",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
